@@ -1,0 +1,25 @@
+{
+  "batch": 64,
+  "epochs": 80,
+  "patience": 12,
+  "min_epochs": 30,
+  "lr": 0.0002,
+  "weight_decay": 0.01,
+  "dropout": 0.3,
+  "focal_gamma": 1.0,
+  "class_power": 0.5,
+  "temperature": 0.1,
+  "m_weight": 0.15,
+  "d_weight": 0.1,
+  "negative_k": 4,
+  "negative_similarity_threshold": 0.05,
+  "d_gate_floor": 0.15,
+  "seeds": [
+    42,
+    3407,
+    2026,
+    7,
+    123
+  ],
+  "selection_metric": "ap"
+}
